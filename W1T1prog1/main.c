@@ -1,4 +1,4 @@
-/* Lab 1: 2025-09-29
+/*
  * 1. Write a C program to declare variables of different data types (int, float, char, double) 
  *    and print their values and sizes using sizeof(). Find the precision in case of float and double.
  *    Consider the following variables where a = 10, b = 5.1234567890, c = 'G', d = 123.1234567891234567890.
