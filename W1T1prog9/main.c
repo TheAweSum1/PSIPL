@@ -3,8 +3,10 @@
 
 int main()
 {   int num1, num2;
+    //take input of the two numbers
     printf("Enter two integers:");
     scanf("%d%d", &num1, &num2);
+    //print each bitwise operation and shift respectively
     printf("Bitwise AND: %d \n",(num1 & num2));
     printf("Bitwise OR: %d \n",(num1| num2));
     printf("Bitwise XOR: %d \n",(num1 ^ num2));
