@@ -2,15 +2,29 @@
 #include <stdlib.h>
 
 int main()
-{   int num = 0;
-    printf("Enter a number:");
-    scanf("%d" , &num);
-    if(num > 0)
+{   char op;
+    int num1,num2;
+    printf("Enter 2 numbers: ");
+    scanf("%d%d", &num1, &num2);
+    printf("Choose the arithmetic operation to perform (+,-,*,/): ");
+    scanf(" %c", &op);
+
+    switch(op)
     {
-        printf("%d is positive number", num);
+    case '+':
+        printf("Addition of 2 numbers = a+b = %d", (num1+num2));
+        break;
+    case '-':
+        printf("Subtraction of 2 numbers = a-b = %d", (num1-num2));
+        break;
+    case '*':
+        printf("Product of 2 numbers = a*b = %d", (num1*num2));
+        break;
+    case '/':
+        printf("Division of 2 numbers = a/b = %d", (num1/num2));
+        break;
+    default:
+        printf(" %c is not a valid operation. Please enter valid Arithmetic operation!", op);
     }
-    if(num<0)
-    {
-        printf("%d is negative number", num);
-    }
+    return 0;
 }

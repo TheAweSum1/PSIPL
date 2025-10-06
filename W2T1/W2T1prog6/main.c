@@ -2,15 +2,13 @@
 #include <stdlib.h>
 
 int main()
-{   int num = 0;
-    printf("Enter a number:");
-    scanf("%d" , &num);
-    if(num > 0)
+{
+    int n, a = 1;
+    printf("Enter a number (n) to print natural numbers from 1 to n:");
+    scanf("%d", &n);
+    while(n>0)
     {
-        printf("%d is positive number", num);
-    }
-    if(num<0)
-    {
-        printf("%d is negative number", num);
+        printf("%d\n",a++);
+        n--;
     }
 }

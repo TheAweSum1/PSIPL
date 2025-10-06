@@ -2,15 +2,27 @@
 #include <stdlib.h>
 
 int main()
-{   int num = 0;
-    printf("Enter a number:");
-    scanf("%d" , &num);
-    if(num > 0)
+{   int num1, num2, num3;
+    printf("Enter 3 Numbers:");
+    scanf("%d %d %d", &num1, &num2, &num3);
+    if(num1>num2)
     {
-        printf("%d is positive number", num);
+        if(num1>num3)
+        {
+            printf("%d is largest number in %d, %d and %d",num1,num1,num2,num3 );
+        }
+        else
+        {
+            printf("%d is largest number in %d, %d and %d",num3,num1,num2,num3 );
+        }
     }
-    if(num<0)
+    else if(num2>num3)
     {
-        printf("%d is negative number", num);
+        printf("%d is largest number in %d, %d and %d",num2,num1,num2,num3 );
+    }
+    else
+    {
+        printf("%d is largest number in %d, %d and %d",num3,num1,num2,num3 );
+
     }
 }

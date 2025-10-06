@@ -2,15 +2,14 @@
 #include <stdlib.h>
 
 int main()
-{   int num = 0;
-    printf("Enter a number:");
-    scanf("%d" , &num);
-    if(num > 0)
+{
+    int n;
+    do
     {
-        printf("%d is positive number", num);
-    }
-    if(num<0)
-    {
-        printf("%d is negative number", num);
-    }
+      printf("Enter a positive number:");
+      scanf("%d", &n);
+
+    }while(n>0);
+    printf("Sorry! You entered a negative number. Exiting the program.");
+    return 0;
 }
