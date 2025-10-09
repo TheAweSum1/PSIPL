@@ -3,6 +3,7 @@
 
 int main()
 {
+    printf("2025300145_Chinmay_Mhaskar\n");
     int i,j;
     for(i = 1; i<=10; i++)
     {
@@ -12,5 +13,6 @@ int main()
         }
         printf("\n");
     }
+    printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
 }

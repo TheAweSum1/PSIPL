@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int main()
-{   int num = 0;
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    int num = 0;
     printf("Enter a number:");
     scanf("%d", &num);
     if(num%2==0)
@@ -11,6 +13,6 @@ int main()
     }
     else
         printf("%d is an odd number" , num);
-
+    printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
 }

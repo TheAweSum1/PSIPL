@@ -1,4 +1,4 @@
-/* 
+/*
  * 7. Write a C program to demonstrate increment (++) and decrement (--)
  *    operators in both prefix and postfix forms. Start with a variable
  *    'a' initialized to value 5.
@@ -7,7 +7,9 @@
 #include <stdlib.h>
 
 int main()
-{   int a;
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    int a;
     // take input of original value
     printf("Original value:");
     scanf("%d", &a);
@@ -18,5 +20,6 @@ int main()
     printf("Post-decrement %d\n", a--);
     printf("After post-decrement %d\n", a);
     printf("Pre-decrement %d\n", --a);
+    printf("2025300145_Chinmay_Mhaskar\n");
 
 }

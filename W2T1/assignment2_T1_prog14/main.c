@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int main()
-{   int i,j,n;
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    int i,j,n;
     printf("Enter number of rows: ");
     scanf("%d", &n);
     for(i = 1; i<=n; i++)
@@ -13,5 +15,6 @@ int main()
         }
         printf("\n");
     }
+    printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
 }

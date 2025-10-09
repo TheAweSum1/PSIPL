@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int main()
-{   char op;
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    char op;
     int num1,num2;
     printf("Enter 2 numbers: ");
     scanf("%d%d", &num1, &num2);
@@ -26,5 +28,6 @@ int main()
     default:
         printf(" %c is not a valid operation. Please enter valid Arithmetic operation!", op);
     }
+    printf("\n2025300145_Chinmay_Mhaskar\n");
     return 0;
 }

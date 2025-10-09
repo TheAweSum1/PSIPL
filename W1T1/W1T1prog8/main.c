@@ -6,7 +6,9 @@
 #include <stdlib.h>
 
 int main()
-{   //declare an integer
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    //declare an integer
     int a;
     //take input from user
     printf("Enter a number: ");
@@ -19,6 +21,6 @@ int main()
     "Odd\n"
     :
     "Even\n");
-
+    printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
 }

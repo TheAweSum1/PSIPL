@@ -3,6 +3,7 @@
 
 int main()
 {
+    printf("2025300145_Chinmay_Mhaskar\n");
     int n, a = 1;
     printf("Enter a number (n) to print natural numbers from 1 to n:");
     scanf("%d", &n);
@@ -11,4 +12,5 @@ int main()
         printf("%d\n",a++);
         n--;
     }
+    printf("\n2025300145_Chinmay_Mhaskar\n");
 }

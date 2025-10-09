@@ -2,7 +2,9 @@
 #include <stdlib.h>
 
 int main()
-{   int rollno, sub1, sub2, sub3, nstud = 0;
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    int rollno, sub1, sub2, sub3, nstud = 0;
     printf("Enter Roll Number: ");
     scanf("%d" , &rollno);
     printf("Enter marks in 3 subjects: ");
@@ -33,7 +35,8 @@ int main()
     printf("Average: %.2f\n",avg);
     printf("Percentage: %.2f%%\n", prcnt);
     printf("Grade: %c \n",grade);
-    printf("No. of students processed %d" , ++nstud);
+    printf("No. of students processed %d \n" , ++nstud);
 
+    printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
 }

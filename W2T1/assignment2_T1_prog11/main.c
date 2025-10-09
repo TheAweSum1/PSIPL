@@ -2,7 +2,9 @@
 #include <stdbool.h>
 
 int main()
-{   bool isprime = true;
+{
+    printf("2025300145_Chinmay_Mhaskar\n");
+    bool isprime = true;
     int i = 0, n = 0;
     printf("Enter a number to check if it is prime or not:");
     scanf("%d" , &n);
@@ -22,5 +24,6 @@ int main()
     {
         printf("%d is not a prime number!",n);
     }
+    printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
 }
