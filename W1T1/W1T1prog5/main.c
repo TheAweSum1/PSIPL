@@ -1,8 +1,3 @@
-/*
- * 5. Write a C program to input marks of three subjects and check
- *    whether the student has passed (all marks >= 40) using
- *    logical operators (&&, ||, !).
- */
 #include <stdio.h>
 #include <stdbool.h>
 int main()

@@ -1,6 +1,3 @@
-/*
-* Write a C program that uses constant keyword. Define a constant for Pi and calculate the area of the circle
-*/
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,7 +18,8 @@ int main()
       float area = pi * rad * rad;
 
       //printing area of circle
-      printf(" Area of circle = %f", area);
-    printf("\n2025300145_Chinmay_Mhaskar\n");
+      printf(" Area of circle = %.2f", area);
+      printf("\n2025300145_Chinmay_Mhaskar\n");
+
       return 0;
 }

@@ -1,7 +1,3 @@
-/*
- * 8. Write a C program to input a number and check whether it is even or odd
- *    using the conditional operator (?:).
- */
 #include <stdio.h>
 #include <stdlib.h>
 

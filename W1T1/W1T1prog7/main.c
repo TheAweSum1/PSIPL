@@ -1,8 +1,3 @@
-/*
- * 7. Write a C program to demonstrate increment (++) and decrement (--)
- *    operators in both prefix and postfix forms. Start with a variable
- *    'a' initialized to value 5.
- */
 #include <stdio.h>
 #include <stdlib.h>
 

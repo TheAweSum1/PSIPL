@@ -1,6 +1,3 @@
-/*
- * 4. Write a C program to input two numbers and check which one is greateror if they are equal using ternary operator.
- */
 #include <stdio.h>
 #include <stdbool.h>
 int main()
