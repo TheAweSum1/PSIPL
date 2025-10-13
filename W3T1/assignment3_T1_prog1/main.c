@@ -1,3 +1,11 @@
+/**
+*@brief Program to perform various operations on a number input, like checking even odd, checking if prime, finding factorial,
+reversing the number and facility to edit the number as well
+*@author Chinmay Mhaskar
+*@date 13-10-2025
+*/
+
+
 #include <stdio.h>
 #include <stdbool.h>
 #include <math.h>
