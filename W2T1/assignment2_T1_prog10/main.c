@@ -18,7 +18,9 @@ int main()
         r = n%10;
         s = s+r;
         n = n/10;
-    }while(n>0);
+    }while(n!=0);
+    if(s<0)
+        s = (-s);
     printf("Sum of digits: %d\n", s);
     printf("2025300145_Chinmay_Mhaskar\n");
     return 0;

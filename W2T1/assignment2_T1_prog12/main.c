@@ -16,7 +16,7 @@ int main()
     }
     //inform user program is exiting
     printf("You entered -1. Exiting the program.");
-    printf("2025300145_Chinmay_Mhaskar\n");
+    printf("\n2025300145_Chinmay_Mhaskar\n");
 
     return 0;
 }

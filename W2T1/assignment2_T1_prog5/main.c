@@ -26,12 +26,12 @@ int main()
         printf("Product of 2 numbers = a*b = %d", (num1*num2));
         break;
     case '/':
-        printf("Division of 2 numbers = a/b = %d", (num1/num2));
+        printf("Division of 2 numbers = a/b = %.2f", (1.00*num1/num2));
         break;
     //in case any input other than +-/* is entered, default case is used for error handling
     default:
         printf(" %c is not a valid operation. Please enter valid Arithmetic operation!", op);
     }
-    printf("\n2025300145_Chinmay_Mhaskar\n");
+    printf("\n 2025300145_Chinmay_Mhaskar\n");
     return 0;
 }
