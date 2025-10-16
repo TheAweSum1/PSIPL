@@ -24,7 +24,7 @@ int main()
 
     while(notExit)
     {
-        printf("Enter your choice(1 to 6):");
+        printf("\nEnter your choice(1 to 6):");
         scanf("%d",&choice);
         switch(choice)
         {
