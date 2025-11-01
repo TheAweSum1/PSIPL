@@ -8,12 +8,12 @@
 int main()
 {
     printf("2025300145_Chinmay_Mhaskar\n");
-     //declare currchoice for choice in switch case, notExit for running while loop
+    //declare currchoice for choice in switch case, notExit for running while loop
     int currchoice = 0;
     bool notExit = true;
+
     //declare cels fahr and kelv to store temperature in celsius, Fahrenheit and kelvin respectively
     float cels = 0, fahr = 0, kelv = 0;
-
     printf("Enter temperature in Celsius: ");
     scanf("%f", &cels);
     //while loop iterates until flag notExit is set to false by user entering 5
@@ -53,19 +53,18 @@ int main()
             printf("Enter new temperature in Celsius: ");
             scanf("%f",&cels);
             break;
+
         case 5:
             //Inform user exiting the program
             printf("Exiting program... Goodbye!\n");
             notExit = false;
             break;
+
         default:
             //default case for error handling
             printf("Invalid Choice! \nPlease enter choice (1-2) to convert temp, 3 to check water state, 4 to enter new temperature & 5 to exit\n \n");
             break;
         }
-
-
-
     }
       printf("2025300145_Chinmay_Mhaskar\n");
     return 0;
