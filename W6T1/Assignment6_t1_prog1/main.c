@@ -5,10 +5,11 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 int main()
 {
-    printf("Chinmay_Mhaskar_2025300145\n");
+      printf("Chinmay_Mhaskar_2025300145\n");
 
     char str[100];
     //char array to store string
