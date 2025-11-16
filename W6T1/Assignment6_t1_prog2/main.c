@@ -18,7 +18,6 @@ int main()
     //ask user to input string using fgets
     printf("Enter a string: ");
     fgets(str,sizeof(str),stdin);
-
     //using for loop to check if each character is \0
     for(i=0;i<100;i++)
     {

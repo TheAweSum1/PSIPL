@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1763215325 source:c:\users\c g mhaskar\psipl\w6t1\assignment6_t1_prog7\main.c
+	<stdio.h>
+	<stdbool.h>
+
