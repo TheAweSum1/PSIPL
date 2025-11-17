@@ -95,7 +95,7 @@ int main()
     }
     //display all output
     printf("Message in reverse: %s\n",revuser);
-    printf("\n Message Analysis\nWords:%d\nVowels:%d\nConsonants:%d\nDigits:%d\nSpaces:%d\n",cntwo,cntvo,cntco,cntdi,cntsp);
+    printf("\n Message Analysis\nWords \t:%d\nVowels \t:%d\nConsonants:%d\nDigits \t:%d\nSpaces \t:%d\n",cntwo,cntvo,cntco,cntdi,cntsp);
     printf("Cleaned message (extra spaces removed): %s",clean);
     printf("\nChinmay_Mhaskar_2025300145");
     return 0;
