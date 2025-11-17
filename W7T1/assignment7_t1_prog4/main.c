@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-//function to add two numbers
+//function to swap two numbers
 void swap(int *a, int *b)
 {
     int t = 0;
@@ -23,8 +23,9 @@ int main()
     //ask user to input 2 numbs
     printf("Enter two numbers: ");
     scanf("%d %d",&n1,&n2);
-    //print sum
+    //print values of a and b before and after swap
     printf("Before swap: a=%d b=%d\n",n1,n2);
+    //call function swap with address of n1 and n2
     swap(&n1,&n2);
     printf("After swap: a=%d b=%d",n1,n2);
 
