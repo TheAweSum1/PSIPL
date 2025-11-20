@@ -56,8 +56,7 @@ void findMinMax(int arr[], int n, int *min, int *max)
         if(arr[i] < *min)
             min = &(arr[i]);
     }
-    printf("Lowest marks = %d\n",*min);
-    printf("Highest marks = %d\n",*max);
+
 }
 /**
 *@brief Program to analyze marks of students
@@ -74,7 +73,7 @@ int main()
     //define array marks of size n
     int mks[n];
     //ask user to input marks
-    printf("Enter marks of %d students",n);
+    printf("Enter marks of %d students ",n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&mks[i]);
@@ -86,7 +85,11 @@ int main()
     float average = averageMarks(total,n);
     printf("Average Marks = %.2f\n",average);
     //call function findMinMax
+    int min = &mks[0];
+
     findMinMax(mks,n, &mks[0], &mks[0]);
+    printf("Lowest marks = %d\n",*min);
+    printf("Highest marks = %d\n",*max);
     printf("\nChinmay_Mhaskar_2025300145");
     return 0;
 }
