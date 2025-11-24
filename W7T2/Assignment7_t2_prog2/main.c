@@ -39,16 +39,19 @@ int isStrong(char str[])
     //check if an uppercase, lowercase character and digit is present in the password
     for(i=0; i<ln; i++)
     {
+        //checks acc to ASCII value if character is upper case
         if((int)str[i] >= 65 && (int)str[i] <= 90)
         {
             isUpper = true;
             continue;
         }
+        //checks acc to ASCII value if character is lower case
         else if((int)str[i] >= 97 && (int)str[i] <= 122)
         {
             isLower = true;
             continue;
         }
+        //checks acc to ASCII value if character is digit
         else if( (int)str[i] >= 48 && (int)str[i] <= 57 )
         {
             isDigit = true;
@@ -76,6 +79,7 @@ void toLowerCase(char str[])
     {
         if(str[i] == '\n')
             break;
+        //checks acc to ASCII value if character is uppercase and converts to lowercase
         if((int)str[i] >= 65 && (int)str[i] <= 90)
             str[i] = ((char)str[i]+32);
 
