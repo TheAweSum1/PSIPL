@@ -22,7 +22,6 @@ int main()
     scanf("%d %d %d",&n1,&n2,&n3);
     //print maximum
     printf("Maximum = %d",max(n1,n2,n3));
-
     printf("\nChinmay_Mhaskar_2025300145");
     return 0;
 }
@@ -31,15 +30,13 @@ int max(int a, int b, int c)
 {
     int max = a;
     if(a<b)
-    {
-        if(b>c)
+    {   if(b>c)
             max = b;
         else
             max = c;
     }
     else
-    {
-        if(a<c)
+    {   if(a<c)
             max = c;
     }
     return max;

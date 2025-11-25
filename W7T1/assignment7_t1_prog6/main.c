@@ -28,12 +28,12 @@ int main()
     scanf("%d",&size);
     //define arrr size
     int arrr[size];
-    printf("Enter %d elements",s);
+    printf("Enter %d elements",size);
     //take input of all elements
     for(i=0;i<size;i++)
         scanf("%d",&arrr[i]);
     //call function arraySum to print sum of all elements
-    printf("Sum of array elements = %d",arraySum(arrr,s));
+    printf("Sum of array elements = %d",arraySum(arrr,size));
     printf("\nChinmay_Mhaskar_2025300145");
     return 0;
 }
