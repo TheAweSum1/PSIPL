@@ -9,17 +9,17 @@
 #include <stdio.h>
 #include <string.h>
 int isPalindrome (char str[], int start, int end)
-{
-    // Base case: if start has crossed end, it's a palindrome.
-    if (start >= end) {
-        return 1;
-    }
-    // If characters at start and end do not match, it's not a palindrome.
-    if (str[start] != str[end]) {
-        return 0;
-    }
-    // Recursive call to check remaining substring
-    return isPalindrome(str, start + 1, end - 1);
+{   //if n is 1, return only element in array (arr[0])
+    if(!(start >= end))
+        {
+        if(str[start] != str[end])
+            return 0;
+        if(isPalindrome(str,start+1,end-1))
+            return 1;
+        else
+            return 0;
+        }
+    return 0;
 }
 int main()
 {
