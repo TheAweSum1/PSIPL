@@ -9,17 +9,31 @@
 #include <stdio.h>
 #include <string.h>
 int isPalindrome (char str[], int start, int end)
-{   //if n is 1, return only element in array (arr[0])
+{
+    //if n is 1, return only element in array (arr[0])
     if(!(start >= end))
-        {
+    {
+        printf("1\n");
+
         if(str[start] != str[end])
-            return 0;
-        if(isPalindrome(str,start+1,end-1))
-            return 1;
-        else
+        {
+            printf("Comparing %c and %c",str[start],str[end]);
+            printf("2\n");
             return 0;
         }
-    return 0;
+        else if(isPalindrome(str,start+1,end-1) == 1)
+        {
+            printf("3\n");
+            return 1;
+        }
+        else
+        {
+            printf("4\n");
+            return 1;
+        }
+    }
+    else
+        return 0;
 }
 int main()
 {
@@ -33,7 +47,7 @@ int main()
     fgets(str,sizeof(str),stdin);
 
     //store result of maxArray function in res
-    int res = isPalindrome(str,0,(strlen(str)-1));
+    int res = isPalindrome(str,0,5);
     printf("res = %d",res);
     //print result
     if(res)
